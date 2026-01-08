@@ -25,6 +25,5 @@ Key Technical Contributions:
   <img width="540" height="365" alt="image" src="https://github.com/user-attachments/assets/514ff7fa-dcac-4870-ade1-0f976b8b054f" />
 
 
-* Automated Workflow: Built a modular system that automates total cost calculations and ensures data integrity through rigorous input validation.
   
 Tech Stack: Python, Matplotlib (Data Visualization), Tkinter (GUI), CSV (Storage)
