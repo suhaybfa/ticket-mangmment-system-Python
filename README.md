@@ -11,7 +11,7 @@ secure user authentication to persistent data storage and visual business intell
 
 <h2>Key Technical Contributions</h2>
 
-<h3>Secure Authentication</h3>
+<h3>Secure Authentication(GUI)</h3>
 <p>
 Designed a Tkinter-based graphical login interface with a three-attempt security lockout mechanism
 to protect sensitive ticket sales and customer data from unauthorized access.
