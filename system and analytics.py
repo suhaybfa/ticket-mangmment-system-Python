@@ -3,8 +3,6 @@ import os
 from datetime import datetime
 import matplotlib.pyplot as plt
 
-# Developer comment: This is the final version of the project, if anyone edits this make sure to not change anything functional - F
-# Note: The program will auto-create 'tickets2024.csv' with some sample data if the file does not exist or is empty, for initial testing.
 CSV_FILE = "tickets2024.csv"
 FIELDNAMES = ["Ticket ID", "Event Name", "Customer Name", "Purchase Date", "Ticket Price", "Quantity", "Total Cost"]
 
@@ -16,7 +14,7 @@ def seed_sample_data():
         {"Ticket ID": "3", "Event Name": "Concert A", "Customer Name": "Ali Fahad", "Purchase Date": "2024-01-12", "Ticket Price": "10", "Quantity": "1", "Total Cost": str(10 * 1)},
         {"Ticket ID": "4", "Event Name": "Conference X", "Customer Name": "Basmah Emad", "Purchase Date": "2024-01-12", "Ticket Price": "100", "Quantity": "3", "Total Cost": str(100 * 3)}
     ]
-    # Only seed if file is missing or empty
+    # Only see if file is missing or empty
     if not os.path.exists(CSV_FILE) or os.path.getsize(CSV_FILE) == 0:
         with open(CSV_FILE, mode='w', newline='') as f:
             writer = csv.DictWriter(f, fieldnames=FIELDNAMES)
@@ -335,3 +333,4 @@ if __name__ == "__main__":
     seed_sample_data()     # Seed initial data if needed
     if login():            # Check for successful login
         main_menu()        # Show main menu if login was successful  
+
