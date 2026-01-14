@@ -1,6 +1,6 @@
 <h1>Ticket Sales Management System (TSMS)</h1>
 
-<h2>Project Overview</h2>
+<h2> Overview</h2>
 <p>
 Developed a Python-based automation tool to transition ticket sales from manual spreadsheets
 to a centralized digital platform. The system manages the entire sales lifecycle, starting from
