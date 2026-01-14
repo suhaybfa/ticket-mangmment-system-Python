@@ -44,6 +44,7 @@ including average, maximum, and minimum sales metrics.
 </p>
 
 <img width="540" height="367" alt="image" src="https://github.com/user-attachments/assets/8ff48a94-44b5-4776-a944-91a44734b0d8" />
+
 <img width="540" height="365" alt="image" src="https://github.com/user-attachments/assets/514ff7fa-dcac-4870-ade1-0f976b8b054f" />
 
 <hr/>
